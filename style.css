@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.shapka {
+    background-image: url(shapka-background.jpg);
+    /* color: white; */
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.h1-s {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+}
+
+.listul {
+    max-width: 700px;
+    margin: 100px auto;
+}
+
+.classpart {
+    flex: 0 0 auto;
+}
+
+li {
+    background-image: url(Galochka.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    /* background-position: ; */
+    list-style: none;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.shapkaflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sfe {
+    flex: 0 0 auto;
+    /* height: 40px; */
+    /* margin-right: 10px; */
+}
+
+button {
+    border: 0;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.h1-b {
+    font-size: 60px;
+    line-height: 1.2;
+    margin-top: 22px;
+    color: white;
+}
+
+.pskm {
+    font-size: 27px;
+    color: white;
+}
+
+.sfe-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.threepart {
+    background-color: orange;
+    display: flex;
+}
